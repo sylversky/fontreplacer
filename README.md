@@ -6,6 +6,7 @@ Usage
 =====
 
 Add on your project level build.gradle repositories:
+(this is optional, already available on jcenter)
 
 ```
 allprojects {
