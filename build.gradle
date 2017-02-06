@@ -1,29 +1,5 @@
 apply plugin: 'com.android.library'
 
-ext {
-    bintrayRepo = 'AndroidLibrary'
-    bintrayName = 'fontreplacer'
-
-    publishedGroupId = 'com.sylversky.fontreplacer'
-    libraryName = 'fontreplacer'
-    artifact = 'fontreplacer'
-
-    libraryDescription = 'Change all text in your android application with selected font'
-
-    siteUrl = 'https://github.com/sylversky/fontreplacer'
-    gitUrl = 'https://github.com/sylversky/fontreplacer.git'
-
-    libraryVersion = '1.0'
-
-    developerId = 'sylversky'
-    developerName = 'Leonardus Ardyandhita'
-    developerEmail = 'leo4rdyand@gmail.com'
-
-    licenseName = 'The Apache Software License, Version 2.0'
-    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
-    allLicenses = ["Apache-2.0"]
-}
-
 android {
     compileSdkVersion 25
     buildToolsVersion "25.0.2"
@@ -46,6 +22,3 @@ android {
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
 }
-
-apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle'
-apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle'
